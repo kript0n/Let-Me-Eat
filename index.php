@@ -1,4 +1,5 @@
 <?php
+    require_once('defines.php');
     require_once('includes.php');
     
     try {

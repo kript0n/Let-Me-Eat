@@ -1,10 +1,5 @@
 <?php
 
-    define('MYSQL_NAME', 'root');
-    define('MYSQL_PASS', 'aqswde');
-    define('MYSQL_SERVER', 'localhost');
-    define('MYSQL_DB', 'restaurants');
-
 	class DB {
 	
 		private static $instance = null;

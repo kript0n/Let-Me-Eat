@@ -8,8 +8,22 @@ and open the template in the editor.
     Author     : kripton
 */
 
+
 .navbar-brand {
     
     min-width: 117px;
     
+}
+
+
+
+
+@media(max-width: 768px) {
+    
+    #my-nav {
+        
+        padding: 0 0;
+        
+    }
+
 }
