@@ -12,18 +12,33 @@ and open the template in the editor.
 .navbar-brand {
     
     min-width: 117px;
-    
+    font-size:  24px
 }
 
+.city-check {
+    color: #5e5e5e;
+}
 
-
+.name-search {
+    max-width: 250px;
+}
 
 @media(max-width: 768px) {
     
-    #my-nav {
+    .my-nav {
         
         padding: 0 0;
         
     }
 
+}
+
+@media(min-width:1200px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media(min-width: 1600) {
+    
 }
