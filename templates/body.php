@@ -6,7 +6,15 @@
             switch ($_GET['page']) {
                 
                 case 'enter': 
-                    include("./pages/admin/enter.php");
+                    include("/pages/admin/enter.php");
+                    break;
+                
+                case 'main':
+                    include("/pages/main.php");
+                    break;
+                
+                default :
+                    include("/pages/main.php");
                     break;
                 
             }

@@ -8,3 +8,8 @@ and open the template in the editor.
     Author     : kripton
 */
 
+.navbar-brand {
+    
+    min-width: 117px;
+    
+}
