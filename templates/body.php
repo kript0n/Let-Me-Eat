@@ -1,4 +1,4 @@
-<body>
+
     
     <?php
         if(isset($_GET['page'])) {
@@ -6,24 +6,26 @@
             switch ($_GET['page']) {
                 
                 case 'enter': 
-                    include("/pages/admin/enter.php");
+                    include("./pages/admin/enter.php");
                     break;
                 
                 case 'main':
-                    include("/pages/main.php");
+                    include("./pages/main.php");
                     break;
                 
                 default :
-                    include("/pages/main.php");
+                    include("./pages/main.php");
                     break;
                 
             }
         
             
         }
+        else {
+            include("./pages/main.php");
+        }
     ?>
-    
-</body>
+
 
 <?php
 

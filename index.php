@@ -4,7 +4,7 @@
     
     try {
 	
-        //$object = DB::getInstance();
+        $object = DB::getInstance();
         include('./templates/header.php');
         include('./templates/body.php');
         include('./templates/footer.php');       
