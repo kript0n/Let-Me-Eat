@@ -29,29 +29,17 @@ and open the template in the editor.
     position: relative;
 }
 
-.review-carousel-block {
+#review-carousel-block {
     position: relative;
-    width: 75%;
-    float: left;
-}
-
-.kitchen-padding {
-    position: relative;
-
-    padding-left: 75%;
-}
-
-.kitchen {
-    position: relative;
-}
-
-.kitchen > .type {
-    position: relative;
-    border-bottom: 1px solid black;
+    width: 68%;
 }
 
 .kitchen-addon {
     border-radius: 0px;
+}
+
+.kitchen-types-block {
+    width: 28%;
 }
 
 
@@ -60,8 +48,8 @@ and open the template in the editor.
  */
 
     .review-checkbox {
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
         background: #ddd;
         margin: auto auto;
         border-radius: 100%;
@@ -73,8 +61,8 @@ and open the template in the editor.
 
     .review-checkbox label {
             display: block;
-            width: 30px;
-            height: 30px;
+            width: 25px;
+            height: 25px;
             border-radius: 100px;
 
             -webkit-transition: all .5s ease;
@@ -121,8 +109,9 @@ and open the template in the editor.
         background-color: #FFF;
     }
 
-    .my-btn > h2 {
+    .my-btn > h3 {
         text-align: center;
+        font-size: 33px;
     }
 
     .no-border-top {

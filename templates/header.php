@@ -7,9 +7,11 @@
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="/Let-Me-Eat/css/style.css">
+
     </head>
 
     <body>
+
         <header>
             <div class="container my-nav">
                     <nav class="navbar navbar-default" role="navigation">
