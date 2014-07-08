@@ -5,7 +5,7 @@
     <table class="main-review-block" cols="2" style="width:100%;">
         <tr>
             <td rowspan="6" id="review-carousel-block">
-                <div id="review-carousel" class="carousel slide" style="width: 100%;" data-ride="carousel" data-interval="3000" >
+                <div id="review-carousel" class="carousel slide" data-ride="carousel" data-interval="3000" >
                         <!--Indicators-->
                         <ol class="carousel-indicators">
                             <li data-target="#review-carousel" data-slide-to="0" class="active" ></li>
